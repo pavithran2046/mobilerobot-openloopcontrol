@@ -9,27 +9,37 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+### Step1:
+<br/>
+ Import the robomaster and time.
+
+### Step2:
+Initialize the robot.
 
 <br/>
 
-Step2:
+### Step3:
+Start video streaming
 
 <br/>
 
-Step3:
-
+### Step4:
+Measure the path in meters and perform movements and set LED colors.
 <br/>
 
-Step4:
-
+### Step5:
+Measure the path in meters and perform movements and set LED colors.
 <br/>
 
-Step5:
-
+### step6:
+Close the robot connection.
 <br/>
 
+### step6:
+End the program
+</br>
 ## Program
+
 ```python
 from robomaster import robot
 import time
@@ -111,7 +121,7 @@ if _name_ == '_main_':
 ## MobileRobot Movement Image:
 
 ![robo](./WhatsApp%20Image%202023-07-29%20at%202.40.08%20PM.jpeg)
-
+![robo](/Screenshot%202023-08-07%20113756.png)
 Insert image here
 
  
